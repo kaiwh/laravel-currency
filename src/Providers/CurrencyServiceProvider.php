@@ -12,7 +12,7 @@ class CurrencyServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('kai_currency', function () {
+        $this->app->singleton('kaiwh_laravel_currency', function () {
             return new \Kaiwh\Currency\CurrencyManager();
         });
     }
