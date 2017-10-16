@@ -21,7 +21,7 @@
                 "Kaiwh\\Currency\\Providers\\CurrencyServiceProvider"
             ],
             "aliases": {
-                "Geo": "Kaiwh\\Currency\\Facades\\CurrencyFacade"
+                "Currency": "Kaiwh\\Currency\\Facades\\CurrencyFacade"
             }
         }
     }
