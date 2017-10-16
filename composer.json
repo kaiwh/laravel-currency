@@ -1,0 +1,25 @@
+{
+    "name": "kaiwh/laravel-currency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaiwen",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kaiwh\\Currency\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaiwh\\Currency\\Providers\\CurrencyServiceProvider"
+            ]
+        }
+    }
+}
