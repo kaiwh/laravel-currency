@@ -19,7 +19,10 @@
         "laravel": {
             "providers": [
                 "Kaiwh\\Currency\\Providers\\CurrencyServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Geo": "Kaiwh\\Currency\\Facades\\CurrencyFacade"
+            }
         }
     }
 }
